@@ -1,3 +1,5 @@
+🔗 **[View Live Site](https://diazcodes.github.io/shaysportphotography/)**
+
 # Beyond the Game (BTG Sports Video Productions)
 
 A multi-page marketing website for **Beyond the Game**, a youth sports photography and highlight-video business run by T&D Sports Video Productions. The site is designed to give young athletes the kind of professional-quality photo and video presence usually reserved for college and pro players.
