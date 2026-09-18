@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beyond the Game | Youth Sports Video &amp; Photography</title>
+<meta name="description" content="T&amp;D Sports Video Productions — Beyond the Game brings professional style and quality to youth sports photography and highlight videos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ SITE HEADER (over hero) ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <img src="assets/logo-white.png" alt="Beyond the Game — T&amp;D Sports Video Productions" class="logo-img">
+    </a>
+
+    <div class="nav-group">
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="menuOpen" aria-label="Open menu" aria-expanded="false" aria-controls="menuOverlay">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ FULLSCREEN NAV OVERLAY ============ -->
+<div class="menu-overlay" id="menuOverlay" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+  <div class="menu-watermark" aria-hidden="true">
+    <img src="assets/logo.png" alt="">
+  </div>
+
+  <div class="menu-topbar">
+    <img src="assets/logo.png" alt="Beyond the Game" class="menu-logo-img">
+    <button class="menu-close" id="menuClose" aria-label="Close menu">&times;</button>
+  </div>
+
+  <nav class="menu-links" aria-label="Full site menu">
+    <a href="#top" class="menu-link" data-menu-link>Homepage</a>
+    <a href="about.html" class="menu-link" data-menu-link>About Me</a>
+    <a href="#contact" class="menu-link" data-menu-link>Contact</a>
+  </nav>
+
+  <p class="menu-footer">BTG Sports Video Productions &middot; Beyond the Game</p>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="assets/hero-football.jpg" alt="High school football player in uniform on the field at sunset" class="hero-img" id="heroImg">
+      <div class="hero-scrim"></div>
+    </div>
+    <svg class="hero-curve" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,90 L0,40 C 240,90 1200,90 1440,40 L1440,90 Z"/>
+    </svg>
+  </section>
+
+  <!-- ============ TAGLINE ============ -->
+  <section class="tagline reveal">
+    <h1>Bringing professional style &amp; quality<br>to youth sports photography</h1>
+  </section>
+
+  <!-- ============ PHOTO STRIP (continuous filmstrip) ============ -->
+  <section class="strip reveal" aria-label="Featured sports">
+    <div class="strip-track">
+      <figure class="strip-frame">
+        <img src="assets/strip-track-start.jpg" alt="Sprinters set at the starting blocks on a track" loading="lazy">
+        <figcaption>Track</figcaption>
+      </figure>
+      <figure class="strip-frame">
+        <img src="assets/strip-basketball.jpg" alt="Basketball player dribbling at sunset on an outdoor court" loading="lazy">
+        <figcaption>Basketball</figcaption>
+      </figure>
+      <figure class="strip-frame">
+        <img src="assets/strip-football-action.jpg" alt="Football running back carrying the ball under stadium lights" loading="lazy">
+        <figcaption>Football</figcaption>
+      </figure>
+      <figure class="strip-frame">
+        <img src="assets/strip-team.jpg" alt="Two youth football teammates posing with their helmets" loading="lazy">
+        <figcaption>Team</figcaption>
+      </figure>
+      <figure class="strip-frame">
+        <img src="assets/track-sunset.jpg" alt="Empty running track glowing at sunset" loading="lazy">
+        <figcaption>Game Day</figcaption>
+      </figure>
+      <!-- duplicate set so the loop is seamless -->
+      <figure class="strip-frame" aria-hidden="true">
+        <img src="assets/strip-track-start.jpg" alt="" loading="lazy">
+        <figcaption>Track</figcaption>
+      </figure>
+      <figure class="strip-frame" aria-hidden="true">
+        <img src="assets/strip-basketball.jpg" alt="" loading="lazy">
+        <figcaption>Basketball</figcaption>
+      </figure>
+      <figure class="strip-frame" aria-hidden="true">
+        <img src="assets/strip-football-action.jpg" alt="" loading="lazy">
+        <figcaption>Football</figcaption>
+      </figure>
+      <figure class="strip-frame" aria-hidden="true">
+        <img src="assets/strip-team.jpg" alt="" loading="lazy">
+        <figcaption>Team</figcaption>
+      </figure>
+      <figure class="strip-frame" aria-hidden="true">
+        <img src="assets/track-sunset.jpg" alt="" loading="lazy">
+        <figcaption>Game Day</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE + CTA (shared wrap so the photo can tuck behind the curve) ============ -->
+  <div class="why-cta-wrap">
+    <figure class="camera-photo reveal">
+      <img src="assets/camera-hands-cutout.png" alt="Photographer's hands adjusting a professional camera" loading="lazy">
+    </figure>
+
+    <section class="why" id="why">
+      <div class="why-inner">
+        <h2 class="reveal">Why choose T&amp;D Sports Video Productions?</h2>
+
+        <ul class="features">
+          <li class="reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <rect class="fi-fill" x="13" y="6" width="11" height="6" rx="2"/>
+                <rect class="fi-fill" x="3" y="10" width="34" height="26" rx="4"/>
+                <circle class="fi-hole" cx="20" cy="24" r="8.5"/>
+                <circle class="fi-fill" cx="20" cy="24" r="5.5"/>
+              </svg>
+            </span>
+            <h3>State of the art equipment</h3>
+            <p>T&amp;D uses the highest quality video production gear available on the market to produce videos for our clients.</p>
+          </li>
+          <li class="reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <circle class="fi-fill" cx="20" cy="20" r="18"/>
+                <path class="fi-hands" d="M20 20V11M20 20L26.5 24" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Reliable service</h3>
+            <p>Everything we do is based on being prompt and being reliable for our clients.</p>
+          </li>
+          <li class="reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <rect class="fi-fill" x="5" y="6" width="15" height="7" rx="2"/>
+                <rect class="fi-fill" x="3" y="11" width="34" height="25" rx="3"/>
+              </svg>
+            </span>
+            <h3>High quality production</h3>
+            <p>Whether it be a live stream broadcast or an individual college recruiting video, we know how to get it done right.</p>
+          </li>
+          <li class="reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <rect class="fi-fill" x="10" y="2" width="3.5" height="9" rx="1.5"/>
+                <rect class="fi-fill" x="26.5" y="2" width="3.5" height="9" rx="1.5"/>
+                <rect class="fi-fill" x="4" y="7" width="32" height="29" rx="3"/>
+                <rect class="fi-hole" x="4" y="14" width="32" height="2.5"/>
+                <circle class="fi-hole" cx="12" cy="22" r="1.8"/>
+                <circle class="fi-hole" cx="20" cy="22" r="1.8"/>
+                <circle class="fi-hole" cx="28" cy="22" r="1.8"/>
+                <circle class="fi-hole" cx="12" cy="29" r="1.8"/>
+                <circle class="fi-hole" cx="20" cy="29" r="1.8"/>
+              </svg>
+            </span>
+            <h3>Fast turnaround time</h3>
+            <p>What good is the video if it's not available in a timely manner?</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CTA / CONTACT ============ -->
+    <section class="cta" id="contact">
+      <svg class="cta-curve" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,0 L0,50 C 240,0 1200,0 1440,50 L1440,0 Z"/>
+      </svg>
+      <div class="cta-media">
+        <img src="assets/cta-sunset.jpg" alt="" aria-hidden="true" class="cta-img" loading="lazy">
+        <div class="cta-scrim"></div>
+      </div>
+      <div class="cta-inner reveal">
+        <h2>Get your athlete <strong>noticed</strong></h2>
+        <p>Having a highlight tape is a great way to show off your son or daughter's athletic achievements to colleges and recruiters.</p>
+
+        <!-- To receive these submissions, sign up for a free form backend like
+             https://formspree.io, then replace YOUR_FORM_ID below with the ID
+             it gives you. Plain HTML forms can't send email on their own. -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="form-field">
+              <label class="visually-hidden" for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+            </div>
+            <div class="form-field">
+              <label class="visually-hidden" for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label class="visually-hidden" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-field">
+              <label class="visually-hidden" for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone">
+            </div>
+          </div>
+          <div class="form-field form-field--full">
+            <label class="visually-hidden" for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-top reveal">
+
+    <div class="footer-col footer-col--brand">
+      <img src="assets/logo-white.png" alt="Beyond the Game" class="footer-logo-img">
+      <p class="footer-tag">BTG Sports Video Productions</p>
+      <p class="footer-blurb">Bringing professional style and quality to youth sports photography and highlight video &mdash; so every athlete gets the recognition they've earned.</p>
+      <div class="footer-social" aria-label="Social media">
+        <a href="https://instagram.com/shay_beyondthegame" target="_blank" rel="noopener" aria-label="Instagram: shay_beyondthegame" class="social-btn">
+          <svg viewBox="0 0 24 24" fill-rule="evenodd">
+            <path d="M8 2.5h8a5.5 5.5 0 0 1 5.5 5.5v8a5.5 5.5 0 0 1-5.5 5.5H8A5.5 5.5 0 0 1 2.5 16V8A5.5 5.5 0 0 1 8 2.5Zm0 2A3.5 3.5 0 0 0 4.5 8v8A3.5 3.5 0 0 0 8 19.5h8a3.5 3.5 0 0 0 3.5-3.5V8A3.5 3.5 0 0 0 16 4.5Zm4 2.8a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4Zm0 2a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm5-3.4a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/>
+          </svg>
+        </a>
+        <a href="https://tiktok.com/@shayoncam_beyondthegam" target="_blank" rel="noopener" aria-label="TikTok: shayoncam_beyondthegam" class="social-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M16.5 2h-3.1v13.2c0 1.5-1.2 2.75-2.75 2.75a2.75 2.75 0 0 1 0-5.5c.28 0 .55.04.8.12v-3.2a5.9 5.9 0 0 0-.8-.05A5.95 5.95 0 0 0 4.7 15.2 5.95 5.95 0 0 0 10.65 21a5.95 5.95 0 0 0 5.95-5.95V8.4a7.6 7.6 0 0 0 4.4 1.4V6.7a4.4 4.4 0 0 1-3-1.2A4.45 4.45 0 0 1 16.5 2Z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="YouTube" class="social-btn">
+          <svg viewBox="0 0 24 24" fill-rule="evenodd">
+            <path d="M6.5 4H17.5A5 5 0 0 1 22.5 9V15A5 5 0 0 1 17.5 20H6.5A5 5 0 0 1 1.5 15V9A5 5 0 0 1 6.5 4Z M10 8.5L10 15.5L16 12Z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#top">Home</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <a href="mailto:hello@beyondthegamevideo.com">hello@beyondthegamevideo.com</a>
+      <a href="tel:+15555550123">(555) 555-0123</a>
+      <span class="footer-static">Serving local leagues &amp; schools</span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-rule"></div>
+    <p class="footer-copy">&copy; <span id="year"></span> Beyond the Game. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
